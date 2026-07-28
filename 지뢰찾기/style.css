@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* 바깥,안쪽 여백 제거 */
+ body{
+    background:#008080;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+    font-family:Tahoma,sans-serif;
+}
+/* 
+배경색 지정
+요소 정렬
+가운데
+화면 높이 전부 사용
+폰트 설정*/
+.window{
+
+width:500px;
+
+background:#C0C0C0;
+
+border-top:3px solid white;
+
+border-left:3px solid white;
+
+border-right:3px solid #404040;
+
+border-bottom:3px solid #404040;
+
+}
+/* 
+너비 500
+배경 회색
+위, 3px , 실선이면서 흰색
+아래 3 , 살선이면서 어둡게 해서 입체감 부여
+*/
+.titleBar{
+
+background:linear-gradient(to right,#000080,#1084d0);
+
+color:white;
+
+padding:10px;
+
+font-weight:bold;
+
+}
+/* 
+그라데이션 
+글자색 흰색
+안쪽여백 10px
+폰트 볼드*/
+.menu{
+
+    padding:40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+/* 제목 */
+
+h1{
+
+    margin-bottom:40px;
+
+    font-size:40px;
+
+}
+
+/* 버튼 */
+
+button{
+
+    width:240px;
+
+    height:55px;
+
+    margin:15px;
+
+    font-size:20px;
+
+    background:#C0C0C0;
+
+    border-top:3px solid white;
+    border-left:3px solid white;
+    border-right:3px solid #404040;
+    border-bottom:3px solid #404040;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#DCDCDC;
+
+}
+
+button:active{
+
+    border-top:3px solid #404040;
+    border-left:3px solid #404040;
+    border-right:3px solid white;
+    border-bottom:3px solid white;
+
+}
